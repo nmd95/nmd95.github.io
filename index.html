@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nimrod De La Vega</title>
+  <meta name="description" content="PhD student (Reinforcement Learning) at Mila & Polytechnique Montréal.">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><rect width='100%' height='100%' fill='%23111'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-size='64' fill='white'>N</text></svg>">
+  <meta property="og:title" content="Nimrod De La Vega">
+  <meta property="og:description" content="PhD student (Reinforcement Learning) at Mila & Polytechnique Montréal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://<your-username>.github.io/">
+  <meta property="og:image" content="https://<your-username>.github.io/assets/portrait.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nimrod De La Vega",
+    "jobTitle": "PhD student",
+    "affiliation": [
+      {"@type":"Organization", "name":"Mila - Quebec AI Institute"},
+      {"@type":"CollegeOrUniversity", "name":"Polytechnique Montréal"}
+    ],
+    "email": "mailto:nimrod.delavega@mila.quebec",
+    "address": {"@type":"PostalAddress","addressLocality":"Montreal","addressCountry":"Canada"}
+  }
+  </script>
+  <style>/* tiny overrides for Tyler-style layout */
+    .about{display:grid; grid-template-columns:120px 1fr; gap:20px; align-items:start}
+    @media (max-width:640px){.about{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="title"><a href="/">Nimrod De La Vega</a></div>
+    <nav class="nav">
+      <a href="/publications/">Publications</a>
+      <a href="/files/cv.pdf" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card about">
+      <img src="/assets/portrait.jpg" alt="Portrait of Nimrod De La Vega" class="avatar" onerror="this.style.display='none'">
+      <div>
+        <h1>About me</h1>
+        <p>I am a PhD student in Computer Engineering (Reinforcement Learning) at Mila / Polytechnique Montréal, supervised by Prof. Amir‑Massoud Farahmand.</p>
+        <p class="meta">Montreal, Canada · <a href="mailto:nimrod.delavega@mila.quebec">nimrod.delavega@mila.quebec</a></p>
+        <div class="badges">
+          <span class="badge">Reinforcement Learning</span>
+          <span class="badge">Theoretical Deep Learning</span>
+          <span class="badge">Optimization</span>
+        </div>
+        <hr>
+        <p>Previously, I completed an MSc (Computer Science, magna cum laude) and a BSc in Computer Science & Electrical Engineering (magna cum laude) at Tel‑Aviv University. I have teaching assistant experience in deep learning and machine learning courses.</p>
+        <p>My recent work includes a NeurIPS 2023 spotlight paper on data suitability for locally connected neural networks based on quantum entanglement.</p>
+        <p><small>Links: <a href="https://mila.quebec/en/directory/amir-massoud-farahmand" target="_blank" rel="noopener">Advisor</a> · <a href="https://openreview.net/forum?id=4aIpgq1nuI" target="_blank" rel="noopener">NeurIPS'23</a></small></p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    © <span id="yr"></span> Nimrod De La Vega
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+</body>
+</html>
